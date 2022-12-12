@@ -1,6 +1,9 @@
 body {
     margin: 0;
    background: #8b91dd;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 
 }
 
@@ -12,7 +15,7 @@ body {
     border:5px solid rgb(8, 7, 7);
     border-radius:20px;
     padding:50px 50px;
-    margin:200px 400px;
+   
 }
 .home{
     display: flex;
@@ -46,7 +49,9 @@ body {
     display:flex;
     justify-content: center;
     flex-direction: row;
+    margin:20px;
     column-gap: 50px;
+
 }
 
 .btn{
